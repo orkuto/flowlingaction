@@ -42,7 +42,7 @@ class Maingame:
 
         self.generate_stage = stage_generate.stage_generation()
 
-        self.generate_stage.stage_course_generate()
+        #self.generate_stage.stage_course_generate()
         self.generate_stage.read_start()
         
         self.ground_data = [0] #地面のデータを格納しておく場所。多分1300個のリストになる。ピクセルを合わせたブロック単位で減少可能.
