@@ -1,7 +1,8 @@
 import flowlingaction
 
+a = flowlingaction.Maingame()
+
 async def main():
-    a = flowlingaction.Maingame()
     a.mainloop()
     await asyncio.sleep(0)
 
